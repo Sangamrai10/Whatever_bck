@@ -1,3 +1,8 @@
+import {Router} from "express"
 import {register} from "../controller/User.controller.js"
 
-app.post("/register", register)
+const router = Router()
+
+router.route("/register").post(register)
+
+export default router
