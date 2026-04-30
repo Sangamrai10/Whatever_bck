@@ -1,0 +1,1 @@
+import {register} from "../controller/User.controller.js"
